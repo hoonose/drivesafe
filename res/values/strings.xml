@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Drive Safe</string>
+    <string name="title_activity_message">Messaging</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="title_activity_challenge">Challenge</string>
+    <string name="title_activity_debug">DebugActivity</string>
+    <string name="title_activity_timeout">TimeoutActivity</string>
+    
+        
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="warning">Texting is more dangerous than being drunk while driving. Click the button below only if you are not driving.</string>
+    <string name="challenge">Touch the screen with eight fingers at once!</string>
+    <string name="challenge_timer">5.0</string>
+    <string name="not_driving">I solemnly swear that I am not driving.</string>
+    <string name="fast">Fast</string>
+    <string name="slow">Slow</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="wait">Please wait until the timer below runs out. No cheating at stop lights!</string>
+</resources>

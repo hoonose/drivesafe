@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.mit.drivesafe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="edu.mit.drivesafe.MessageActivity"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name="edu.mit.drivesafe.DisplayMessageActivity"
+            android:label="@string/title_activity_display_message" >
+        </activity>
+        <activity
+            android:name="edu.mit.drivesafe.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="edu.mit.drivesafe.ChallengeActivity"
+            android:label="@string/title_activity_challenge" >
+        </activity>
+        <activity
+            android:name="edu.mit.drivesafe.DebugActivity"
+            android:label="@string/title_activity_debug" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.mit.drivesafe.TimeoutActivity"
+            android:label="@string/title_activity_timeout" >
+        </activity>
+    </application>
+
+</manifest>
