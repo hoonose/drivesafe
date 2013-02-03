@@ -75,7 +75,7 @@ public class ChallengeActivity extends Activity {
 				}.start();
 				Log.e("X","Starting Timer");
 			} else if (fingers <= 7 && challengeStarted) {
-				countdown.setText("5");
+				countdown.setText("5.0");
 				timer.cancel();
 				challengeStarted = false;
 				Log.e("X","Canceled Timer");
